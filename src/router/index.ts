@@ -4,7 +4,6 @@ import VueRouter from "vue-router";
 // import Home from "../views/Home.vue";
 // import { Search } from "@/views";
 import { storeRoutes } from "./useStore";
-import { assureRoutes } from "./assure";
 
 const Home = () => import("../views/Home.vue");
 const page404 = () => import("../views/404.vue");
@@ -41,7 +40,6 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: page404 // () => import(/* webpackChunkName: "about" */ "../views/404.vue")
   },
-  ...assureRoutes,
   ...storeRoutes
 ];
 

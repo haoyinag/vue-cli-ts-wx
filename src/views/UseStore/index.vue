@@ -45,7 +45,7 @@ const moduleName = ModulesName.user;
 const userModule = namespace(moduleName);
 
 @Component({
-  name: "store"
+  name: "useStore"
   //   computed: {
   //     /** ·computed· 只能在装饰器·@Component·中而非·class·组件中生效*/
   //     ...mapGetters([UserGetters.GET_USER_NAME, UserGetters.SET_NUM])
