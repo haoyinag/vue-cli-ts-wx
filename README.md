@@ -1,6 +1,6 @@
 # wechat 微信端项目
 
-**基于 vue-cli 脚手架，集成 typescript，并使用有赞的 vant-ui 搭建的移动 web 端项目**
+**基于 vue-cli 脚手架，集成 typescript，并使用有赞 vant-ui 搭建的移动 web 端项目**
 
 ### 功能
 
