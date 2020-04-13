@@ -5,9 +5,12 @@
 ### 功能
 
 1. 支持 px 自动转 vw [postcss-px-to-viewport](https://www.npmjs.com/package/postcss-px-to-viewport)
-2. 样式处理器预用[stylus](https://stylus.bootcss.com/)，不喜欢的可以切`less`或者`scss`
-3. 高度兼容微信公众号开发，内置微信 sdk，提供注册微信以及分享的 api
+2. 样式处理器预用[stylus](https://stylus.bootcss.com/)，`less`或者`scss`自行配置
+3. 高度兼容微信公众号开发，内置微信 sdk，提供注册微信以及分享的 Api
 4. 一键开启微信端调试利器 [vconsole](https://github.com/Tencent/vConsole/blob/dev/README_CN.md)
+5. 支持动态主题
+6. 支持跨域代理
+7. 支持别名、cdn、gzip 压缩、公共代码抽离、压缩优化等配置
 
 **本项目以及对应的 react 版本会持续迭代，持续更新且不止于框架自身新功能、ES6+等前端的新技术**
 
