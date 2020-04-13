@@ -26,9 +26,9 @@
 
 #### 第三方库
 
-- "flyio": "^0.6.14" `接口请求，更好的支持多端以及更灵活的请求处理`
-- "postcss-px-to-viewport": "^1.1.1" `viewport 适配`
 - "typescript": "~3.7.5
+- "postcss-px-to-viewport": "^1.1.1" `viewport 适配`
+- "flyio": "^0.6.14" `接口请求，更好的支持多端以及更灵活的请求处理`
 - ...
 
 ## 项目运行
