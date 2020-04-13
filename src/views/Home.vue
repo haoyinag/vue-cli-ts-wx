@@ -2,12 +2,7 @@
   <div class="home">
     <div v-if="!loading" class="content">
       <van-grid clickable :column-num="1">
-        <van-grid-item
-          dot
-          icon="service-o"
-          text="保函真伪查询系统"
-          to="/assure_search"
-        />
+        <van-grid-item dot icon="service-o" text="vuex使用" to="/use_store" />
         <!-- {{ GET_USER_NAME }}
         {{ SET_NUM }} -->
         <!-- <van-grid-item icon="search" text="URL 跳转" url="/vant/mobile.html" /> -->
