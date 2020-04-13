@@ -1,3 +1,5 @@
+//@ts-nocheck
+// eslint-disable
 const path = require("path");
 
 /** 视图插件 */
@@ -156,7 +158,7 @@ module.exports = {
       // proxy all requests starting with /api to jsonplaceholder
       "/api": {
         // target: "https://emm.cmccbigdata.com:8443/",
-        target: "http://8.129.55.191",
+        target: "http://xxx.xxx.xxx.x",
         // target: "http://47.106.136.114/",
         ws: true, //代理websockets
         changeOrigin: true, // 虚拟的站点需要更管origin
